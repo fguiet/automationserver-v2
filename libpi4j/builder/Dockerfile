@@ -34,6 +34,7 @@ RUN git clone https://github.com/fguiet/automationserver-v2.git
 
 #Getting Pi4J last release version (1.2 as of 2020/12/05)
 RUN git clone https://github.com/Pi4J/pi4j.git
+RUN git checkout tags/release/1.2
 
 #Copy custom Makefile
 #Folder to Java Home and WiringPi should be modified accordingly in INCLUDE section that's all
