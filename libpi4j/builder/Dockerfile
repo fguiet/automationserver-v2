@@ -24,7 +24,7 @@ RUN mkdir -p /applications/builder/output
 
 #Set work dir
 WORKDIR /applications/builder
-RUN echo toa
+
 #Wiring source code are from WiringPi unofficial mirror : https://github.com/WiringPi/WiringPi.git
 #Branch master as of 2020/12/05 - could not use tags as they do not exists.. :(
 RUN git clone https://github.com/fguiet/automationserver-v2.git
