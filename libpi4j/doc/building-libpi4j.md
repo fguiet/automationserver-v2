@@ -27,6 +27,12 @@ Instead of using the source code from the git repository, I duplicate the necess
 To compile the Pi4J JNI library (`libpi4j.so`) against the `WiringPi` from <https://github.com/WiringPi/WiringPi>, I just modified the `Makefile` from the `pi4j-native` project ([tags : release 1.2](https://github.com/Pi4J/pi4j/releases/tag/release%2F1.2)). 
 
 ```bash
+# Clone this repo
+https://github.com/fguiet/automationserver-v2.git
+
+# Go to builder folder
+cd automationserver-v2/libpi4j/builder
+
 # Build the image
 docker build -t guiet/libpi4j:latest .
 
